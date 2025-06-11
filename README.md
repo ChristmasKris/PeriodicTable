@@ -1,4 +1,4 @@
-# Minimal Periodic Table – Project Blog
+# Periodic Table
 
 ## What is this project?
 
