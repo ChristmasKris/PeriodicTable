@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Minimal Periodic Table</title>
+		<link rel="stylesheet" href="./index.css"/>
+	</head>
+	<body>
+		<button id="toggle-dark" style="position:fixed;top:1em;right:1em;z-index:200;">Toggle Dark Mode</button>
+		<div id="periodic-table"></div>
+		<div id="element-modal" class="hidden">
+			<div id="modal-content">
+				<span id="close-modal">&times;</span>
+				<h2 id="element-name"></h2>
+				<div id="element-desc"></div>
+				<p id="element-uses" style="display:none;"></p>
+			</div>
+		</div>
+		<script src="./general.js"></script>
+		<script src="./elements.js"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
